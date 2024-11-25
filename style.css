@@ -1,0 +1,47 @@
+.form-page {
+    background: #272838;
+    display: block;
+   text-align: center;
+   width: 60vw;
+   margin-left: auto;
+   margin-right: auto;
+   
+   overflow: scroll;
+   color: #fff;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 40px;
+   line-height: 2.6;
+   
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+hr {
+    font-size: 5px;
+}
+.account-type {
+    padding: 40px;
+    font: inherit;
+    position: relative;
+    right: 70px;
+ bottom:70px;
+}
+input {
+    background: #272838;
+    color: white;
+    
+    
+}
+button {
+    background: #272838;
+    color: white;
+    width: 300px;
+    font-size: 1.1rem;
+ 
+} 
+
+
+
+
+

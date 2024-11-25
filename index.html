@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <main>
+  <article class="form-page">
+    <h2>Registration Form</h2>
+    <h4>Please fill out this form with the required information</h4>
+    <form action="">
+    <label for="firstname">Enter Your First Name:</label><br>
+    <input type="text" name="firstname" id="firstname" autocomplete="on" autofocus required> <br>
+    <label for="lastname">Enter Your Last Name:</label><br> 
+    <input type="text" name="lastname" id="lastname" autocomplete="on"  required><br>
+    <label for="email">Enter Your Email:</label><br>
+    <input type="email" name="email" id="email" autocomplete="on"  required> <br>
+    <label for="lastname">Create a new password:</label><br> 
+    <input type="password" name="password" id="your-secret" autocomplete="on"  required>
+    <hr>
+    <h4 class="account-type">Account type (required)</h4>
+    <input type="radio" name="personal" id="personal" class="account-type">
+    <label for="personal" class="account-type">personal</label> <br>
+    <input type="radio" name="business" id="business" class="account-type">
+    <label for="business" class="account-type">Business</label>
+    <hr>
+    <label for="pick-a-file">Upload a profile picture</label> <br>
+    <input type="file" name="file" id="pick-a-file"> <br>
+    <label for="age">Input Your age (years)</label><br>
+    <input type="number" name="age" id="age" min="6" max="200" step="2"><br>
+    <label for="info">How Did you hear about us?</label><br>
+    <select name="info" id="info">
+      <optgroup label="(select one)">
+<option value="freecodecamp news">Freecodecamp News</option>
+<option value="freecodecamp youtube channel">Freecodecamp youtube channel</option>
+<option value="freecodecamp forum">Freecodecamp Forum</option>
+<option value="other" selected>Other</option>
+</optgroup>
+    </select><br>
+    <label for="message">Provide a bio</label><br>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="I like coding on the beach..."></textarea><br>
+    <input type="checkbox" name="conditions" id="terms-conditions">
+    <label for="">I accept the <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-forms-by-building-a-registration-form/step-1">terms and conditions</a></label><br>
+    <button type="submit">Submit</button><br>
+  </form>
+  </article>
+ </main> 
+</body>
+</html>
